@@ -1,0 +1,36 @@
+{
+    "input": [
+        {
+            "id": 1,
+            "document": "dog",
+            "embedding": "[1, 2, 1]"
+        },
+        {
+            "id": 2,
+            "document": "fish",
+            "embedding": "[1, 2, 4]"
+        },
+        {
+            "id": 3,
+            "document": "tree",
+            "embedding": "[1, 0, 0]"
+        }
+    ],
+    "output": [
+        {
+            "id": 2,
+            "document": "fish",
+            "distance": 0.00853986601633272
+        },
+        {
+            "id": 1,
+            "document": "dog",
+            "distance": 0.12712843905603044
+        },
+        {
+            "id": 3,
+            "document": "tree",
+            "distance": 0.7327387580875756
+        }
+    ]
+}
