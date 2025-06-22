@@ -67,29 +67,26 @@
         }
     ],
     "output": [
-        {   
-            "id": 6,
-            "title":"Vase with Irises Against a Yellow Background",
-            "author":"Vincent van Gogh",
-            "description": "Painting of Irises in a vase placed on a table"
-        },
-        {
-            "id": 1,
-            "title": "Sunflowers",
-            "author":"Vincent van Gogh",
-            "description": "Painting of a sunflower in a vase"
-        },
         {
             "id": 8,
             "title": "Self-Portrait",
-            "author":"Vincent van Gogh",
-            "description": "Van Gogh's self protrait against a yellow background"
+            "author": "Vincent van Gogh",
+            "description": "Van Gogh's self protrait against a yellow background",
+            "cosine_similarity": 0.7517759952144668
         },
         {
-            "id": 7,
-            "title": "Bedroom in Arles",
-            "author":"Vincent van Gogh",
-            "description": "Painting of Van Gogh's bedroom Yellow House with a bed, a window, a desk and two chairs"
+            "id" : 3,
+            "title":"Girl with a Pearl Earring",
+            "author": "Johannes Vermeer",
+            "description": "Painting of a girl wearing pearl earrings",
+            "cosine_similarity": 0.7286891720089592
+        },
+        {
+            "id": 4,
+            "title": "The Persistence of Memory",
+            "author": "Salvador Dalí",
+            "description": "Painting of iconic melting clocks drape over a barren distoring the concept of time",
+            "cosine_similarity": 0.7018373869692184
         }
     ]
 }

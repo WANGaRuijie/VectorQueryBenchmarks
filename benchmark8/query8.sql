@@ -2,7 +2,7 @@
 Source: https://github.com/sfoteini/vector-search-azure-cosmos-db-postgresql/tree/main?tab=readme-ov-file
 Model: Google Cloud Vertex AI - Multimodal Embedding
 Query: Still life of flowers
-Note: Text-to-image search with filtering
+Note: Text-to-image search without filtering
 */
 
 SELECT id, title, author, description, 1 - (image_vector <=> '[
@@ -1416,5 +1416,4 @@ SELECT id, title, author, description, 1 - (image_vector <=> '[
         0.00548462803
       ]') AS cosine_similarity
 	FROM paintings
-	WHERE author = 'Vincent van Gogh'
 	ORDER BY cosine_similarity DESC;
