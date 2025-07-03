@@ -1,5 +1,6 @@
 /*
 Source: https://cloud.google.com/blog/products/databases/using-pgvector-llms-and-langchain-with-google-cloud-databases
+Note: Data is selected from the given dataset 
 */
 WITH vector_matches AS (
                               SELECT product_id, 1 - (embedding <=> 
