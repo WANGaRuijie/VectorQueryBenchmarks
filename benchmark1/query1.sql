@@ -11,4 +11,4 @@ WITH vector_matches AS (
                             )
                             SELECT product_name, list_price, description FROM products
                             WHERE product_id IN (SELECT product_id FROM vector_matches)
-                            AND list_price >= 5 AND list_price <= 8
+                            AND list_price >= 6 AND list_price <= 7
