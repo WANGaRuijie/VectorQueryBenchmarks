@@ -3,17 +3,17 @@
         {
             "id": 1,
             "document": "dog",
-            "embedding": "[1, 2, 1]"
+            "embedding": [1, 2, 1]
         },
         {
             "id": 2,
             "document": "fish",
-            "embedding": "[1, 2, 4]"
+            "embedding": [1, 2, 4]
         },
         {
             "id": 3,
             "document": "tree",
-            "embedding": "[1, 0, 0]"
+            "embedding": [1, 0, 0]
         }
     ],
     "output": [

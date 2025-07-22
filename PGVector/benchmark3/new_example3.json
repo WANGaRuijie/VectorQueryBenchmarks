@@ -1,0 +1,88 @@
+{
+  "data": {
+    "input": {
+      "test_embeddings": [
+        {
+          "product_id": 1,
+          "embedding_id": "vec_0"
+        },
+        {
+          "product_id": 2,
+          "embedding_id": "vec_1"
+        },
+        {
+          "product_id": 3,
+          "embedding_id": "vec_2"
+        },
+        {
+          "product_id": 4,
+          "embedding_id": "vec_3"
+        }
+      ]
+    },
+    "output": [
+      {
+        "product_id": 1,
+        "embedding_id": "vec_4",
+        "distance": 2.449489742783178
+      },
+      {
+        "product_id": 2,
+        "embedding_id": "vec_5",
+        "distance": 3
+      },
+      {
+        "product_id": 3,
+        "embedding_id": "vec_6",
+        "distance": 8.774964387392123
+      },
+      {
+        "product_id": 4,
+        "embedding_id": "vec_7",
+        "distance": 9.9498743710662
+      }
+    ]
+  },
+  "vectors": {
+    "vec_0": [
+      1,
+      2,
+      3
+    ],
+    "vec_1": [
+      2,
+      3,
+      4
+    ],
+    "vec_2": [
+      7,
+      6,
+      8
+    ],
+    "vec_3": [
+      8,
+      6,
+      9
+    ],
+    "vec_4": [
+      1,
+      2,
+      3
+    ],
+    "vec_5": [
+      7,
+      6,
+      8
+    ],
+    "vec_6": [
+      8,
+      6,
+      9
+    ],
+    "vec_7": [
+      2,
+      3,
+      4
+    ]
+  }
+}

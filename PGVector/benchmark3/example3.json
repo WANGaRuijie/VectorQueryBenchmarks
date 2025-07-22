@@ -2,40 +2,40 @@
     "input": [
         {
             "product_id": 1,
-            "embedding": "[1,2,3]"
+            "embedding": [1,2,3]
         },
         {
             "product_id": 2,
-            "embedding": "[2,3,4]"
+            "embedding": [2,3,4]
         },
         {
             "product_id": 3,
-            "embedding": "[7,6,8]"
+            "embedding": [7,6,8]
         },
         {
             "product_id": 4,
-            "embedding": "[8,6,9]"
+            "embedding": [8,6,9]
         }
     ],
     "output": [
         {
             "product_id": 1,
-            "embedding": "[1,2,3]",
+            "embedding": [1,2,3],
             "distance": 2.449489742783178
         },
         {
             "product_id": 2,
-            "embedding": "[7,6,8]",
+            "embedding": [7,6,8],
             "distance": 3
         },
         {
             "product_id": 3,
-            "embedding": "[8,6,9]",
+            "embedding": [8,6,9],
             "distance": 8.774964387392123
         },
         {
             "product_id": 4,
-            "embedding": "[2,3,4]",
+            "embedding": [2,3,4],
             "distance": 9.9498743710662
         }
     ]
